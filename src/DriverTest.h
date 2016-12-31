@@ -32,6 +32,10 @@ private:
     GridNodeTest *gridNodeTest;
     MaritalStatus maritalStatus;
     BaseCab* baseCab;
+public:
+    BaseCab *getBaseCab() const;
+
+private:
 
 
     friend class boost::serialization::access;

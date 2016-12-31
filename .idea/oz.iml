@@ -7,8 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/MaritalStatus.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/DriverTest.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/sockets/Socket.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/sockets/Udp.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/sockets/Socket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/sockets/Udp.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/sockets/Udp.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/StandardCab.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/GridNodeTest.cpp" isTestSource="false" />

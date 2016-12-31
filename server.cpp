@@ -23,18 +23,19 @@ int main() {
     gridNodeTest = driverTest->getGridNodeTest();
     std::cout<< gridNodeTest->getA()<< std::endl;
     std::cout<< gridNodeTest->getC()<< std::endl;
+    std::cout<< driverTest->getBaseCab()->getNum()<< std::endl;
 
 
     // cout << buffer << endl;
-    udp.sendData("sup?");
-    udp.reciveData(buffer, sizeof(buffer));///will wait forever - client wont answer.
-    string str2(buffer, sizeof(buffer));
-    BaseCab* p;///creating a pointer to driver test
-    boost::iostreams::basic_array_source<char> device2(str.c_str(), str.size());
-    boost::iostreams::stream<boost::iostreams::basic_array_source<char> > s3(device);
-    boost::archive::binary_iarchive ia2(s3);
-    ia2 >> p;///serialized object will be put in this pointer to driversTest
-   // udp.sendData("suprr?");
+//    udp.sendData("sup?");
+//    udp.reciveData(buffer, sizeof(buffer));///will wait forever - client wont answer.
+//    string str2(buffer, sizeof(buffer));
+//    BaseCab* p;///creating a pointer to driver test
+//    boost::iostreams::basic_array_source<char> device2(str.c_str(), str.size());
+//    boost::iostreams::stream<boost::iostreams::basic_array_source<char> > s3(device);
+//    boost::archive::binary_iarchive ia2(s3);
+//    ia2 >> *p;///serialized object will be put in this pointer to driversTest
+//    udp.sendData("suprr?");
 /*
    usleep(5000);
     Udp udp2(1, 5554);

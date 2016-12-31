@@ -42,3 +42,7 @@ GridNodeTest* DriverTest::getGridNodeTest() {
 MaritalStatus DriverTest::getMaritalStatus() {
     return maritalStatus;
 }
+
+BaseCab *DriverTest::getBaseCab() const {
+    return baseCab;
+}
