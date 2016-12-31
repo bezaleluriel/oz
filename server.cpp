@@ -25,7 +25,7 @@ int main() {
     std::cout<< gridNodeTest->getC()<< std::endl;
     std::cout<< driverTest->getBaseCab()->getNum()<< std::endl;
 
-
+    udp.reciveData(buffer, sizeof(buffer));
     // cout << buffer << endl;
 //    udp.sendData("sup?");
 //    udp.reciveData(buffer, sizeof(buffer));///will wait forever - client wont answer.
